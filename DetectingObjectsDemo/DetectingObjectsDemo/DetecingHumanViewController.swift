@@ -1,26 +1,26 @@
 //
-//  ViewController.swift
+//  DetecingHumanViewController.swift
 //  DetectingObjectsDemo
 //
-//  Created by 珲少 on 2023/4/13.
+//  Created by 珲少 on 2023/4/22.
 //
 
 import UIKit
 import Vision
 
-class DetectingRectangleController: UIViewController {
+class DetecingHumanViewController: UIViewController {
     // 要分析的图片资源
-    let image = UIImage(named: "image")!
+    let image = UIImage(named: "image7")!
     lazy var imageView = UIImageView(image: image)
     
     // 绘制的矩形区域
     var boxViews: [UIView] = []
-
+    
     // 图像分析请求
     lazy var imageRequestHandler = VNImageRequestHandler(cgImage: image.cgImage!,
                                                     orientation: .up,
                                                     options: [:])
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
@@ -34,7 +34,7 @@ class DetectingRectangleController: UIViewController {
         
         DispatchQueue.global(qos: .userInitiated).async {
             do {
-                try self.imageRequestHandler.perform([self.rectangleDetectionRequest])
+                try self.imageRequestHandler.perform([self.bodyDetectionRequest])
             } catch let error as NSError {
                 print("Failed to perform image request: \(error)")
                 return
@@ -44,21 +44,16 @@ class DetectingRectangleController: UIViewController {
 
 
     
-    private lazy var rectangleDetectionRequest: VNDetectRectanglesRequest = {
-        let rectDetectRequest = VNDetectRectanglesRequest { request, error in
+    private lazy var bodyDetectionRequest: VNDetectHumanRectanglesRequest = {
+        let bodyDetectionRequest = VNDetectHumanRectanglesRequest { request, error in
             DispatchQueue.main.async {
-                self.drawTask(request: request as! VNDetectRectanglesRequest)
+                self.drawTask(request: request as! VNDetectHumanRectanglesRequest)
             }
         }
-        // 自定义一些配置项
-        rectDetectRequest.maximumObservations = 0
-        rectDetectRequest.minimumConfidence = 0
-        rectDetectRequest.minimumAspectRatio = 0.1
-        rectDetectRequest.minimumSize = 0.14
-        return rectDetectRequest
+        return bodyDetectionRequest
     }()
     
-    private func drawTask(request: VNDetectRectanglesRequest) {
+    private func drawTask(request: VNDetectHumanRectanglesRequest) {
         boxViews.forEach { v in
             v.removeFromSuperview()
         }
@@ -69,13 +64,13 @@ class DetectingRectangleController: UIViewController {
             print("box:", result.boundingBox)
             let v = UIView()
             v.backgroundColor = .clear
-            v.layer.borderColor = UIColor.black.cgColor
-            v.layer.borderWidth = 2
+            v.layer.borderColor = UIColor.white.cgColor
+            v.layer.borderWidth = 4
             
             imageView.addSubview(v)
             let size = imageView.frame.size
             v.frame = CGRect(x: box.origin.x * size.width, y: box.origin.y * size.height, width: box.size.width * size.width, height: box.size.height * size.height)
         }
     }
-}
 
+}

@@ -9,7 +9,19 @@ import UIKit
 
 class TableViewController: UITableViewController {
     
-    let dataArray = ["图像内矩形识别"]
+    let dataArray = ["图像内矩形识别",
+                     "文本区域识别",
+                     "条形码区域识别",
+                     "轮廓区域识别",
+                     "文档区域识别",
+                     "人脸区域识别",
+                     "面部特征识别",
+                     "人脸捕获质量",
+                     "水平面识别",
+                     "人体姿势识别",
+                     "手势识别",
+                     "身体区域识别"]
+    let controllers = [DetectingRectangleController(), DetectingTextViewController(), DetectingBarcodesViewController(), DetectingContoursViewController(), DetecingDocumentViewController(), DetecingFaceViewController(), DetecingFaceLandmarksViewController(), DetecingFaceCaptureQualityViewController(), DetecingHorizonViewController(), DetecingHumanBodyPoseViewController(), DetecingHumanHandPoseViewController(), DetecingHumanViewController()]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -37,7 +49,8 @@ class TableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
-        navigationController?.pushViewController(DetectingRectangleController(), animated: true)
+        
+        navigationController?.pushViewController(controllers[indexPath.row], animated: true)
     }
 
 }

@@ -14,6 +14,17 @@
 		5F1139DB29E7DC7D00CD75F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F1139DA29E7DC7D00CD75F3 /* Assets.xcassets */; };
 		5F1139DE29E7DC7D00CD75F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F1139DC29E7DC7D00CD75F3 /* LaunchScreen.storyboard */; };
 		5F1139E629E7E38000CD75F3 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1139E529E7E38000CD75F3 /* TableViewController.swift */; };
+		5F1139F629F000CA00CD75F3 /* DetectingTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1139F529F000CA00CD75F3 /* DetectingTextViewController.swift */; };
+		5F1139F829F27AF800CD75F3 /* DetectingBarcodesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1139F729F27AF800CD75F3 /* DetectingBarcodesViewController.swift */; };
+		5F1139FA29F290C900CD75F3 /* DetectingContoursViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1139F929F290C900CD75F3 /* DetectingContoursViewController.swift */; };
+		5F1139FC29F397CD00CD75F3 /* DetecingDocumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1139FB29F397CD00CD75F3 /* DetecingDocumentViewController.swift */; };
+		5F1139FE29F39AE800CD75F3 /* DetecingFaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1139FD29F39AE800CD75F3 /* DetecingFaceViewController.swift */; };
+		5F113A0029F3A3A700CD75F3 /* DetecingFaceLandmarksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1139FF29F3A3A700CD75F3 /* DetecingFaceLandmarksViewController.swift */; };
+		5F113A0229F3E7A500CD75F3 /* DetecingFaceCaptureQualityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F113A0129F3E7A500CD75F3 /* DetecingFaceCaptureQualityViewController.swift */; };
+		5F113A0429F3F3DA00CD75F3 /* DetecingHorizonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F113A0329F3F3DA00CD75F3 /* DetecingHorizonViewController.swift */; };
+		5F113A0629F3FA9D00CD75F3 /* DetecingHumanBodyPoseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F113A0529F3FA9D00CD75F3 /* DetecingHumanBodyPoseViewController.swift */; };
+		5F113A0829F4024100CD75F3 /* DetecingHumanHandPoseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F113A0729F4024100CD75F3 /* DetecingHumanHandPoseViewController.swift */; };
+		5F113A0A29F406C000CD75F3 /* DetecingHumanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F113A0929F406C000CD75F3 /* DetecingHumanViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +37,17 @@
 		5F1139DD29E7DC7D00CD75F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F1139DF29E7DC7D00CD75F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F1139E529E7E38000CD75F3 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		5F1139F529F000CA00CD75F3 /* DetectingTextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectingTextViewController.swift; sourceTree = "<group>"; };
+		5F1139F729F27AF800CD75F3 /* DetectingBarcodesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectingBarcodesViewController.swift; sourceTree = "<group>"; };
+		5F1139F929F290C900CD75F3 /* DetectingContoursViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectingContoursViewController.swift; sourceTree = "<group>"; };
+		5F1139FB29F397CD00CD75F3 /* DetecingDocumentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetecingDocumentViewController.swift; sourceTree = "<group>"; };
+		5F1139FD29F39AE800CD75F3 /* DetecingFaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetecingFaceViewController.swift; sourceTree = "<group>"; };
+		5F1139FF29F3A3A700CD75F3 /* DetecingFaceLandmarksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetecingFaceLandmarksViewController.swift; sourceTree = "<group>"; };
+		5F113A0129F3E7A500CD75F3 /* DetecingFaceCaptureQualityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetecingFaceCaptureQualityViewController.swift; sourceTree = "<group>"; };
+		5F113A0329F3F3DA00CD75F3 /* DetecingHorizonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetecingHorizonViewController.swift; sourceTree = "<group>"; };
+		5F113A0529F3FA9D00CD75F3 /* DetecingHumanBodyPoseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetecingHumanBodyPoseViewController.swift; sourceTree = "<group>"; };
+		5F113A0729F4024100CD75F3 /* DetecingHumanHandPoseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetecingHumanHandPoseViewController.swift; sourceTree = "<group>"; };
+		5F113A0929F406C000CD75F3 /* DetecingHumanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetecingHumanViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +83,17 @@
 				5F1139D129E7DC7C00CD75F3 /* AppDelegate.swift */,
 				5F1139D329E7DC7C00CD75F3 /* SceneDelegate.swift */,
 				5F1139D529E7DC7C00CD75F3 /* DetectingRectangleController.swift */,
+				5F1139F529F000CA00CD75F3 /* DetectingTextViewController.swift */,
+				5F1139F729F27AF800CD75F3 /* DetectingBarcodesViewController.swift */,
+				5F1139F929F290C900CD75F3 /* DetectingContoursViewController.swift */,
+				5F1139FB29F397CD00CD75F3 /* DetecingDocumentViewController.swift */,
+				5F1139FD29F39AE800CD75F3 /* DetecingFaceViewController.swift */,
+				5F1139FF29F3A3A700CD75F3 /* DetecingFaceLandmarksViewController.swift */,
+				5F113A0129F3E7A500CD75F3 /* DetecingFaceCaptureQualityViewController.swift */,
+				5F113A0329F3F3DA00CD75F3 /* DetecingHorizonViewController.swift */,
+				5F113A0529F3FA9D00CD75F3 /* DetecingHumanBodyPoseViewController.swift */,
+				5F113A0729F4024100CD75F3 /* DetecingHumanHandPoseViewController.swift */,
+				5F113A0929F406C000CD75F3 /* DetecingHumanViewController.swift */,
 				5F1139E529E7E38000CD75F3 /* TableViewController.swift */,
 				5F1139D729E7DC7C00CD75F3 /* Main.storyboard */,
 				5F1139DA29E7DC7D00CD75F3 /* Assets.xcassets */,
@@ -141,8 +174,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F113A0229F3E7A500CD75F3 /* DetecingFaceCaptureQualityViewController.swift in Sources */,
+				5F113A0429F3F3DA00CD75F3 /* DetecingHorizonViewController.swift in Sources */,
+				5F113A0029F3A3A700CD75F3 /* DetecingFaceLandmarksViewController.swift in Sources */,
+				5F113A0A29F406C000CD75F3 /* DetecingHumanViewController.swift in Sources */,
+				5F1139FC29F397CD00CD75F3 /* DetecingDocumentViewController.swift in Sources */,
 				5F1139D629E7DC7C00CD75F3 /* DetectingRectangleController.swift in Sources */,
+				5F1139F629F000CA00CD75F3 /* DetectingTextViewController.swift in Sources */,
+				5F1139FE29F39AE800CD75F3 /* DetecingFaceViewController.swift in Sources */,
+				5F113A0829F4024100CD75F3 /* DetecingHumanHandPoseViewController.swift in Sources */,
+				5F1139FA29F290C900CD75F3 /* DetectingContoursViewController.swift in Sources */,
 				5F1139D229E7DC7C00CD75F3 /* AppDelegate.swift in Sources */,
+				5F1139F829F27AF800CD75F3 /* DetectingBarcodesViewController.swift in Sources */,
+				5F113A0629F3FA9D00CD75F3 /* DetecingHumanBodyPoseViewController.swift in Sources */,
 				5F1139D429E7DC7C00CD75F3 /* SceneDelegate.swift in Sources */,
 				5F1139E629E7E38000CD75F3 /* TableViewController.swift in Sources */,
 			);
@@ -291,6 +335,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SGZUXTN292;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DetectingObjectsDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -298,6 +343,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -318,6 +364,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SGZUXTN292;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DetectingObjectsDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -325,6 +372,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
