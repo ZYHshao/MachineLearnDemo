@@ -25,6 +25,9 @@
 		5F113A0629F3FA9D00CD75F3 /* DetecingHumanBodyPoseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F113A0529F3FA9D00CD75F3 /* DetecingHumanBodyPoseViewController.swift */; };
 		5F113A0829F4024100CD75F3 /* DetecingHumanHandPoseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F113A0729F4024100CD75F3 /* DetecingHumanHandPoseViewController.swift */; };
 		5F113A0A29F406C000CD75F3 /* DetecingHumanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F113A0929F406C000CD75F3 /* DetecingHumanViewController.swift */; };
+		5F113A1A29F6974200CD75F3 /* RecognizeTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F113A1929F6974200CD75F3 /* RecognizeTextViewController.swift */; };
+		5F113A1C29F6A2EE00CD75F3 /* RecognizeAnimalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F113A1B29F6A2EE00CD75F3 /* RecognizeAnimalsViewController.swift */; };
+		5F113A1E29F7C0A000CD75F3 /* ClassifyImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F113A1D29F7C0A000CD75F3 /* ClassifyImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +51,9 @@
 		5F113A0529F3FA9D00CD75F3 /* DetecingHumanBodyPoseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetecingHumanBodyPoseViewController.swift; sourceTree = "<group>"; };
 		5F113A0729F4024100CD75F3 /* DetecingHumanHandPoseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetecingHumanHandPoseViewController.swift; sourceTree = "<group>"; };
 		5F113A0929F406C000CD75F3 /* DetecingHumanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetecingHumanViewController.swift; sourceTree = "<group>"; };
+		5F113A1929F6974200CD75F3 /* RecognizeTextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecognizeTextViewController.swift; sourceTree = "<group>"; };
+		5F113A1B29F6A2EE00CD75F3 /* RecognizeAnimalsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecognizeAnimalsViewController.swift; sourceTree = "<group>"; };
+		5F113A1D29F7C0A000CD75F3 /* ClassifyImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassifyImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,9 @@
 				5F113A0529F3FA9D00CD75F3 /* DetecingHumanBodyPoseViewController.swift */,
 				5F113A0729F4024100CD75F3 /* DetecingHumanHandPoseViewController.swift */,
 				5F113A0929F406C000CD75F3 /* DetecingHumanViewController.swift */,
+				5F113A1929F6974200CD75F3 /* RecognizeTextViewController.swift */,
+				5F113A1B29F6A2EE00CD75F3 /* RecognizeAnimalsViewController.swift */,
+				5F113A1D29F7C0A000CD75F3 /* ClassifyImageViewController.swift */,
 				5F1139E529E7E38000CD75F3 /* TableViewController.swift */,
 				5F1139D729E7DC7C00CD75F3 /* Main.storyboard */,
 				5F1139DA29E7DC7D00CD75F3 /* Assets.xcassets */,
@@ -174,8 +183,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F113A1C29F6A2EE00CD75F3 /* RecognizeAnimalsViewController.swift in Sources */,
 				5F113A0229F3E7A500CD75F3 /* DetecingFaceCaptureQualityViewController.swift in Sources */,
 				5F113A0429F3F3DA00CD75F3 /* DetecingHorizonViewController.swift in Sources */,
+				5F113A1A29F6974200CD75F3 /* RecognizeTextViewController.swift in Sources */,
 				5F113A0029F3A3A700CD75F3 /* DetecingFaceLandmarksViewController.swift in Sources */,
 				5F113A0A29F406C000CD75F3 /* DetecingHumanViewController.swift in Sources */,
 				5F1139FC29F397CD00CD75F3 /* DetecingDocumentViewController.swift in Sources */,
@@ -188,6 +199,7 @@
 				5F1139F829F27AF800CD75F3 /* DetectingBarcodesViewController.swift in Sources */,
 				5F113A0629F3FA9D00CD75F3 /* DetecingHumanBodyPoseViewController.swift in Sources */,
 				5F1139D429E7DC7C00CD75F3 /* SceneDelegate.swift in Sources */,
+				5F113A1E29F7C0A000CD75F3 /* ClassifyImageViewController.swift in Sources */,
 				5F1139E629E7E38000CD75F3 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

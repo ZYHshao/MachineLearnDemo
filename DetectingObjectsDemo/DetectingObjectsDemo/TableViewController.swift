@@ -20,8 +20,11 @@ class TableViewController: UITableViewController {
                      "水平面识别",
                      "人体姿势识别",
                      "手势识别",
-                     "身体区域识别"]
-    let controllers = [DetectingRectangleController(), DetectingTextViewController(), DetectingBarcodesViewController(), DetectingContoursViewController(), DetecingDocumentViewController(), DetecingFaceViewController(), DetecingFaceLandmarksViewController(), DetecingFaceCaptureQualityViewController(), DetecingHorizonViewController(), DetecingHumanBodyPoseViewController(), DetecingHumanHandPoseViewController(), DetecingHumanViewController()]
+                     "身体区域识别",
+                     "图片中文本识别",
+                     "动物识别",
+                     "图片物体识别"]
+    let controllers = [DetectingRectangleController(), DetectingTextViewController(), DetectingBarcodesViewController(), DetectingContoursViewController(), DetecingDocumentViewController(), DetecingFaceViewController(), DetecingFaceLandmarksViewController(), DetecingFaceCaptureQualityViewController(), DetecingHorizonViewController(), DetecingHumanBodyPoseViewController(), DetecingHumanHandPoseViewController(), DetecingHumanViewController(), RecognizeTextViewController(), RecognizeAnimalsViewController(), ClassifyImageViewController()]
 
     override func viewDidLoad() {
         super.viewDidLoad()
