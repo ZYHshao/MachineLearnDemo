@@ -10,7 +10,7 @@ import Vision
 
 class DetectingRectangleController: UIViewController {
     // 要分析的图片资源
-    let image = UIImage(named: "image")!
+    let image = UIImage(named: "image10")!
     lazy var imageView = UIImageView(image: image)
     
     // 绘制的矩形区域
