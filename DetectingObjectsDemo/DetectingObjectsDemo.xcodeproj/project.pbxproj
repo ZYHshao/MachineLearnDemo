@@ -34,6 +34,8 @@
 		5F113A4A29F90F3E00CD75F3 /* DetectTrajectoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F113A4929F90F3E00CD75F3 /* DetectTrajectoriesViewController.swift */; };
 		5F113A4C29F91F5600CD75F3 /* video2.mov in Resources */ = {isa = PBXBuildFile; fileRef = 5F113A4B29F91F5600CD75F3 /* video2.mov */; };
 		5F113A4E29FA477B00CD75F3 /* ImageFeatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F113A4D29FA477B00CD75F3 /* ImageFeatureViewController.swift */; };
+		5F113A5029FA6F9700CD75F3 /* BasedSaliencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F113A4F29FA6F9700CD75F3 /* BasedSaliencyViewController.swift */; };
+		5F113A5229FA71CC00CD75F3 /* ObjectnessBasedSaliencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F113A5129FA71CC00CD75F3 /* ObjectnessBasedSaliencyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +68,8 @@
 		5F113A4929F90F3E00CD75F3 /* DetectTrajectoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectTrajectoriesViewController.swift; sourceTree = "<group>"; };
 		5F113A4B29F91F5600CD75F3 /* video2.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = video2.mov; sourceTree = "<group>"; };
 		5F113A4D29FA477B00CD75F3 /* ImageFeatureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFeatureViewController.swift; sourceTree = "<group>"; };
+		5F113A4F29FA6F9700CD75F3 /* BasedSaliencyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasedSaliencyViewController.swift; sourceTree = "<group>"; };
+		5F113A5129FA71CC00CD75F3 /* ObjectnessBasedSaliencyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectnessBasedSaliencyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +123,8 @@
 				5F113A4729F9033B00CD75F3 /* TrackObjectViewController.swift */,
 				5F113A4929F90F3E00CD75F3 /* DetectTrajectoriesViewController.swift */,
 				5F113A4D29FA477B00CD75F3 /* ImageFeatureViewController.swift */,
+				5F113A4F29FA6F9700CD75F3 /* BasedSaliencyViewController.swift */,
+				5F113A5129FA71CC00CD75F3 /* ObjectnessBasedSaliencyViewController.swift */,
 				5F1139E529E7E38000CD75F3 /* TableViewController.swift */,
 				5F113A4529F9014A00CD75F3 /* video1.mp4 */,
 				5F113A4B29F91F5600CD75F3 /* video2.mov */,
@@ -206,6 +212,7 @@
 				5F113A4E29FA477B00CD75F3 /* ImageFeatureViewController.swift in Sources */,
 				5F113A1C29F6A2EE00CD75F3 /* RecognizeAnimalsViewController.swift in Sources */,
 				5F113A0229F3E7A500CD75F3 /* DetecingFaceCaptureQualityViewController.swift in Sources */,
+				5F113A5029FA6F9700CD75F3 /* BasedSaliencyViewController.swift in Sources */,
 				5F113A0429F3F3DA00CD75F3 /* DetecingHorizonViewController.swift in Sources */,
 				5F113A1A29F6974200CD75F3 /* RecognizeTextViewController.swift in Sources */,
 				5F113A0029F3A3A700CD75F3 /* DetecingFaceLandmarksViewController.swift in Sources */,
@@ -222,6 +229,7 @@
 				5F1139D229E7DC7C00CD75F3 /* AppDelegate.swift in Sources */,
 				5F1139F829F27AF800CD75F3 /* DetectingBarcodesViewController.swift in Sources */,
 				5F113A0629F3FA9D00CD75F3 /* DetecingHumanBodyPoseViewController.swift in Sources */,
+				5F113A5229FA71CC00CD75F3 /* ObjectnessBasedSaliencyViewController.swift in Sources */,
 				5F1139D429E7DC7C00CD75F3 /* SceneDelegate.swift in Sources */,
 				5F113A1E29F7C0A000CD75F3 /* ClassifyImageViewController.swift in Sources */,
 				5F1139E629E7E38000CD75F3 /* TableViewController.swift in Sources */,

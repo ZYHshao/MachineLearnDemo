@@ -27,8 +27,10 @@ class TableViewController: UITableViewController {
                      "矩形物体追踪",
                      "物体追踪",
                      "轨迹分析",
-                     "图片特征分析"]
-    let controllers = [DetectingRectangleController(), DetectingTextViewController(), DetectingBarcodesViewController(), DetectingContoursViewController(), DetecingDocumentViewController(), DetecingFaceViewController(), DetecingFaceLandmarksViewController(), DetecingFaceCaptureQualityViewController(), DetecingHorizonViewController(), DetecingHumanBodyPoseViewController(), DetecingHumanHandPoseViewController(), DetecingHumanViewController(), RecognizeTextViewController(), RecognizeAnimalsViewController(), ClassifyImageViewController(), TrackRectanglViewController(), TrackObjectViewController(), DetectTrajectoriesViewController(), ImageFeatureViewController()]
+                     "图片特征分析",
+                     "图片关注区分析",
+                     "图片物体区分析"]
+    let controllers = [DetectingRectangleController(), DetectingTextViewController(), DetectingBarcodesViewController(), DetectingContoursViewController(), DetecingDocumentViewController(), DetecingFaceViewController(), DetecingFaceLandmarksViewController(), DetecingFaceCaptureQualityViewController(), DetecingHorizonViewController(), DetecingHumanBodyPoseViewController(), DetecingHumanHandPoseViewController(), DetecingHumanViewController(), RecognizeTextViewController(), RecognizeAnimalsViewController(), ClassifyImageViewController(), TrackRectanglViewController(), TrackObjectViewController(), DetectTrajectoriesViewController(), ImageFeatureViewController(), BasedSaliencyViewController(), ObjectnessBasedSaliencyViewController()]
 
     override func viewDidLoad() {
         super.viewDidLoad()
