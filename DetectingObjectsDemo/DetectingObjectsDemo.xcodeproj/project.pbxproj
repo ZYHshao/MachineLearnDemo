@@ -32,6 +32,8 @@
 		5F113A4629F9014A00CD75F3 /* video1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 5F113A4529F9014A00CD75F3 /* video1.mp4 */; };
 		5F113A4829F9033B00CD75F3 /* TrackObjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F113A4729F9033B00CD75F3 /* TrackObjectViewController.swift */; };
 		5F113A4A29F90F3E00CD75F3 /* DetectTrajectoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F113A4929F90F3E00CD75F3 /* DetectTrajectoriesViewController.swift */; };
+		5F113A4C29F91F5600CD75F3 /* video2.mov in Resources */ = {isa = PBXBuildFile; fileRef = 5F113A4B29F91F5600CD75F3 /* video2.mov */; };
+		5F113A4E29FA477B00CD75F3 /* ImageFeatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F113A4D29FA477B00CD75F3 /* ImageFeatureViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +64,8 @@
 		5F113A4529F9014A00CD75F3 /* video1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video1.mp4; sourceTree = "<group>"; };
 		5F113A4729F9033B00CD75F3 /* TrackObjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackObjectViewController.swift; sourceTree = "<group>"; };
 		5F113A4929F90F3E00CD75F3 /* DetectTrajectoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectTrajectoriesViewController.swift; sourceTree = "<group>"; };
+		5F113A4B29F91F5600CD75F3 /* video2.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = video2.mov; sourceTree = "<group>"; };
+		5F113A4D29FA477B00CD75F3 /* ImageFeatureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFeatureViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,8 +118,10 @@
 				5F113A3F29F8BCE100CD75F3 /* TrackRectanglViewController.swift */,
 				5F113A4729F9033B00CD75F3 /* TrackObjectViewController.swift */,
 				5F113A4929F90F3E00CD75F3 /* DetectTrajectoriesViewController.swift */,
+				5F113A4D29FA477B00CD75F3 /* ImageFeatureViewController.swift */,
 				5F1139E529E7E38000CD75F3 /* TableViewController.swift */,
 				5F113A4529F9014A00CD75F3 /* video1.mp4 */,
+				5F113A4B29F91F5600CD75F3 /* video2.mov */,
 				5F1139D729E7DC7C00CD75F3 /* Main.storyboard */,
 				5F1139DA29E7DC7D00CD75F3 /* Assets.xcassets */,
 				5F1139DC29E7DC7D00CD75F3 /* LaunchScreen.storyboard */,
@@ -185,6 +191,7 @@
 				5F1139DE29E7DC7D00CD75F3 /* LaunchScreen.storyboard in Resources */,
 				5F113A4629F9014A00CD75F3 /* video1.mp4 in Resources */,
 				5F1139DB29E7DC7D00CD75F3 /* Assets.xcassets in Resources */,
+				5F113A4C29F91F5600CD75F3 /* video2.mov in Resources */,
 				5F1139D929E7DC7C00CD75F3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -196,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F113A4E29FA477B00CD75F3 /* ImageFeatureViewController.swift in Sources */,
 				5F113A1C29F6A2EE00CD75F3 /* RecognizeAnimalsViewController.swift in Sources */,
 				5F113A0229F3E7A500CD75F3 /* DetecingFaceCaptureQualityViewController.swift in Sources */,
 				5F113A0429F3F3DA00CD75F3 /* DetecingHorizonViewController.swift in Sources */,
