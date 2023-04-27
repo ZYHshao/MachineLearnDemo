@@ -36,6 +36,8 @@
 		5F113A4E29FA477B00CD75F3 /* ImageFeatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F113A4D29FA477B00CD75F3 /* ImageFeatureViewController.swift */; };
 		5F113A5029FA6F9700CD75F3 /* BasedSaliencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F113A4F29FA6F9700CD75F3 /* BasedSaliencyViewController.swift */; };
 		5F113A5229FA71CC00CD75F3 /* ObjectnessBasedSaliencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F113A5129FA71CC00CD75F3 /* ObjectnessBasedSaliencyViewController.swift */; };
+		5F113A5429FA89AB00CD75F3 /* GeneratePersonSegmentationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F113A5329FA89AB00CD75F3 /* GeneratePersonSegmentationViewController.swift */; };
+		5F113A5729FA953B00CD75F3 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F113A5629FA953B00CD75F3 /* CoreImage.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +72,8 @@
 		5F113A4D29FA477B00CD75F3 /* ImageFeatureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFeatureViewController.swift; sourceTree = "<group>"; };
 		5F113A4F29FA6F9700CD75F3 /* BasedSaliencyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasedSaliencyViewController.swift; sourceTree = "<group>"; };
 		5F113A5129FA71CC00CD75F3 /* ObjectnessBasedSaliencyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectnessBasedSaliencyViewController.swift; sourceTree = "<group>"; };
+		5F113A5329FA89AB00CD75F3 /* GeneratePersonSegmentationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneratePersonSegmentationViewController.swift; sourceTree = "<group>"; };
+		5F113A5629FA953B00CD75F3 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F113A5729FA953B00CD75F3 /* CoreImage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +93,7 @@
 			children = (
 				5F1139D029E7DC7C00CD75F3 /* DetectingObjectsDemo */,
 				5F1139CF29E7DC7C00CD75F3 /* Products */,
+				5F113A5529FA953B00CD75F3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +131,7 @@
 				5F113A4D29FA477B00CD75F3 /* ImageFeatureViewController.swift */,
 				5F113A4F29FA6F9700CD75F3 /* BasedSaliencyViewController.swift */,
 				5F113A5129FA71CC00CD75F3 /* ObjectnessBasedSaliencyViewController.swift */,
+				5F113A5329FA89AB00CD75F3 /* GeneratePersonSegmentationViewController.swift */,
 				5F1139E529E7E38000CD75F3 /* TableViewController.swift */,
 				5F113A4529F9014A00CD75F3 /* video1.mp4 */,
 				5F113A4B29F91F5600CD75F3 /* video2.mov */,
@@ -134,6 +141,14 @@
 				5F1139DF29E7DC7D00CD75F3 /* Info.plist */,
 			);
 			path = DetectingObjectsDemo;
+			sourceTree = "<group>";
+		};
+		5F113A5529FA953B00CD75F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F113A5629FA953B00CD75F3 /* CoreImage.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,6 +238,7 @@
 				5F1139F629F000CA00CD75F3 /* DetectingTextViewController.swift in Sources */,
 				5F1139FE29F39AE800CD75F3 /* DetecingFaceViewController.swift in Sources */,
 				5F113A4029F8BCE100CD75F3 /* TrackRectanglViewController.swift in Sources */,
+				5F113A5429FA89AB00CD75F3 /* GeneratePersonSegmentationViewController.swift in Sources */,
 				5F113A0829F4024100CD75F3 /* DetecingHumanHandPoseViewController.swift in Sources */,
 				5F1139FA29F290C900CD75F3 /* DetectingContoursViewController.swift in Sources */,
 				5F113A4829F9033B00CD75F3 /* TrackObjectViewController.swift in Sources */,

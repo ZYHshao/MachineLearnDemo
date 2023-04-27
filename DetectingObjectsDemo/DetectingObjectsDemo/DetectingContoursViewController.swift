@@ -85,7 +85,7 @@ class DetectingContoursViewController: UIViewController {
                 layer.backgroundColor = UIColor.clear.cgColor
                 layer.fillColor = UIColor.clear.cgColor
                 layer.lineWidth = 1
-
+                VNHomographicImageRegistrationRequest
             }
         }
     }

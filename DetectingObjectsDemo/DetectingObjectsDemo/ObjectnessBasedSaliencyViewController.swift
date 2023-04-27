@@ -11,7 +11,7 @@ import Vision
 class ObjectnessBasedSaliencyViewController: UIViewController {
 
     // 要分析的图片资源
-    let image = UIImage(named: "image9")!
+    let image = UIImage(named: "image7")!
     lazy var imageView = UIImageView(image: image)
     
     // 绘制的矩形区域
