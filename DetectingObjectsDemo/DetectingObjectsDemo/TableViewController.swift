@@ -30,8 +30,11 @@ class TableViewController: UITableViewController {
                      "图片特征分析",
                      "图片关注区分析",
                      "图片物体区分析",
-                     "生成人物无光图"]
-    let controllers = [DetectingRectangleController(), DetectingTextViewController(), DetectingBarcodesViewController(), DetectingContoursViewController(), DetecingDocumentViewController(), DetecingFaceViewController(), DetecingFaceLandmarksViewController(), DetecingFaceCaptureQualityViewController(), DetecingHorizonViewController(), DetecingHumanBodyPoseViewController(), DetecingHumanHandPoseViewController(), DetecingHumanViewController(), RecognizeTextViewController(), RecognizeAnimalsViewController(), ClassifyImageViewController(), TrackRectanglViewController(), TrackObjectViewController(), DetectTrajectoriesViewController(), ImageFeatureViewController(), BasedSaliencyViewController(), ObjectnessBasedSaliencyViewController(), GeneratePersonSegmentationViewController()]
+                     "生成人物无光图",
+                     "单词拆解",
+                     "句子拆解",
+                     "段落拆解"]
+    let controllers = [DetectingRectangleController(), DetectingTextViewController(), DetectingBarcodesViewController(), DetectingContoursViewController(), DetecingDocumentViewController(), DetecingFaceViewController(), DetecingFaceLandmarksViewController(), DetecingFaceCaptureQualityViewController(), DetecingHorizonViewController(), DetecingHumanBodyPoseViewController(), DetecingHumanHandPoseViewController(), DetecingHumanViewController(), RecognizeTextViewController(), RecognizeAnimalsViewController(), ClassifyImageViewController(), TrackRectanglViewController(), TrackObjectViewController(), DetectTrajectoriesViewController(), ImageFeatureViewController(), BasedSaliencyViewController(), ObjectnessBasedSaliencyViewController(), GeneratePersonSegmentationViewController(), TokenizationViewController(), SentenceViewController(), ParagraphViewController()]
 
     override func viewDidLoad() {
         super.viewDidLoad()
