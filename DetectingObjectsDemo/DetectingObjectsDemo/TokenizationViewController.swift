@@ -13,7 +13,7 @@ class TokenizationViewController: UIViewController {
     lazy var contentLabel: UILabel = {
         let l = UILabel()
         l.numberOfLines = 0
-        l.font = .systemFont(ofSize: 18)
+        l.font = .systemFont(ofSize: 17)
         l.text = string
         l.textColor = .gray
         return l
@@ -22,7 +22,7 @@ class TokenizationViewController: UIViewController {
     lazy var resultLabel:UILabel = {
         let l = UILabel()
         l.numberOfLines = 0
-        l.font = .systemFont(ofSize: 18)
+        l.font = .systemFont(ofSize: 17)
         return l
     }()
     
