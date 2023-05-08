@@ -36,8 +36,10 @@ class TableViewController: UITableViewController {
                      "段落拆解",
                      "语言识别",
                      "文本分析",
-                     "词句相似性分析"]
-    let controllers = [DetectingRectangleController(), DetectingTextViewController(), DetectingBarcodesViewController(), DetectingContoursViewController(), DetecingDocumentViewController(), DetecingFaceViewController(), DetecingFaceLandmarksViewController(), DetecingFaceCaptureQualityViewController(), DetecingHorizonViewController(), DetecingHumanBodyPoseViewController(), DetecingHumanHandPoseViewController(), DetecingHumanViewController(), RecognizeTextViewController(), RecognizeAnimalsViewController(), ClassifyImageViewController(), TrackRectanglViewController(), TrackObjectViewController(), DetectTrajectoriesViewController(), ImageFeatureViewController(), BasedSaliencyViewController(), ObjectnessBasedSaliencyViewController(), GeneratePersonSegmentationViewController(), TokenizationViewController(), SentenceViewController(), ParagraphViewController(), LanguageViewController(), IdentifyingViewController(), EmbeddingViewController()]
+                     "词句相似性分析",
+                     "语音识别",
+                     "音效识别"]
+    let controllers = [DetectingRectangleController(), DetectingTextViewController(), DetectingBarcodesViewController(), DetectingContoursViewController(), DetecingDocumentViewController(), DetecingFaceViewController(), DetecingFaceLandmarksViewController(), DetecingFaceCaptureQualityViewController(), DetecingHorizonViewController(), DetecingHumanBodyPoseViewController(), DetecingHumanHandPoseViewController(), DetecingHumanViewController(), RecognizeTextViewController(), RecognizeAnimalsViewController(), ClassifyImageViewController(), TrackRectanglViewController(), TrackObjectViewController(), DetectTrajectoriesViewController(), ImageFeatureViewController(), BasedSaliencyViewController(), ObjectnessBasedSaliencyViewController(), GeneratePersonSegmentationViewController(), TokenizationViewController(), SentenceViewController(), ParagraphViewController(), LanguageViewController(), IdentifyingViewController(), EmbeddingViewController(), SpeechViewController(), VoiceViewController()]
 
     override func viewDidLoad() {
         super.viewDidLoad()

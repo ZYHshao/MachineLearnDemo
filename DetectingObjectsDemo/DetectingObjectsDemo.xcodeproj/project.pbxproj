@@ -44,6 +44,9 @@
 		5F113A5F2A03B84600CD75F3 /* LanguageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F113A5E2A03B84600CD75F3 /* LanguageViewController.swift */; };
 		5F113A612A04D4F800CD75F3 /* IdentifyingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F113A602A04D4F800CD75F3 /* IdentifyingViewController.swift */; };
 		5F113A662A06295B00CD75F3 /* EmbeddingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F113A652A06295B00CD75F3 /* EmbeddingViewController.swift */; };
+		5F113A682A07D5C200CD75F3 /* SpeechViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F113A672A07D5C200CD75F3 /* SpeechViewController.swift */; };
+		5F113A6A2A07D6C700CD75F3 /* 12168.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5F113A692A07D6C600CD75F3 /* 12168.wav */; };
+		5F113A6C2A07E94600CD75F3 /* VoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F113A6B2A07E94600CD75F3 /* VoiceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,6 +89,9 @@
 		5F113A5E2A03B84600CD75F3 /* LanguageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageViewController.swift; sourceTree = "<group>"; };
 		5F113A602A04D4F800CD75F3 /* IdentifyingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentifyingViewController.swift; sourceTree = "<group>"; };
 		5F113A652A06295B00CD75F3 /* EmbeddingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbeddingViewController.swift; sourceTree = "<group>"; };
+		5F113A672A07D5C200CD75F3 /* SpeechViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechViewController.swift; sourceTree = "<group>"; };
+		5F113A692A07D6C600CD75F3 /* 12168.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 12168.wav; sourceTree = "<group>"; };
+		5F113A6B2A07E94600CD75F3 /* VoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,8 +156,11 @@
 				5F113A5E2A03B84600CD75F3 /* LanguageViewController.swift */,
 				5F113A602A04D4F800CD75F3 /* IdentifyingViewController.swift */,
 				5F113A652A06295B00CD75F3 /* EmbeddingViewController.swift */,
+				5F113A672A07D5C200CD75F3 /* SpeechViewController.swift */,
+				5F113A6B2A07E94600CD75F3 /* VoiceViewController.swift */,
 				5F1139E529E7E38000CD75F3 /* TableViewController.swift */,
 				5F113A4529F9014A00CD75F3 /* video1.mp4 */,
+				5F113A692A07D6C600CD75F3 /* 12168.wav */,
 				5F113A4B29F91F5600CD75F3 /* video2.mov */,
 				5F1139D729E7DC7C00CD75F3 /* Main.storyboard */,
 				5F1139DA29E7DC7D00CD75F3 /* Assets.xcassets */,
@@ -228,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F1139DE29E7DC7D00CD75F3 /* LaunchScreen.storyboard in Resources */,
+				5F113A6A2A07D6C700CD75F3 /* 12168.wav in Resources */,
 				5F113A4629F9014A00CD75F3 /* video1.mp4 in Resources */,
 				5F1139DB29E7DC7D00CD75F3 /* Assets.xcassets in Resources */,
 				5F113A4C29F91F5600CD75F3 /* video2.mov in Resources */,
@@ -253,7 +263,9 @@
 				5F113A0029F3A3A700CD75F3 /* DetecingFaceLandmarksViewController.swift in Sources */,
 				5F113A4A29F90F3E00CD75F3 /* DetectTrajectoriesViewController.swift in Sources */,
 				5F113A0A29F406C000CD75F3 /* DetecingHumanViewController.swift in Sources */,
+				5F113A6C2A07E94600CD75F3 /* VoiceViewController.swift in Sources */,
 				5F1139FC29F397CD00CD75F3 /* DetecingDocumentViewController.swift in Sources */,
+				5F113A682A07D5C200CD75F3 /* SpeechViewController.swift in Sources */,
 				5F1139D629E7DC7C00CD75F3 /* DetectingRectangleController.swift in Sources */,
 				5F1139F629F000CA00CD75F3 /* DetectingTextViewController.swift in Sources */,
 				5F1139FE29F39AE800CD75F3 /* DetecingFaceViewController.swift in Sources */,
@@ -427,7 +439,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,7 +468,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

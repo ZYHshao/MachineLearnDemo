@@ -60,7 +60,7 @@ class DetecingFaceViewController: UIViewController {
         }
         for result in request.results ?? [] {
             // 面部角度
-            print("result:", result.roll, result.yaw, result.pitch)
+//            print("result:", result.roll, result.yaw, result.pitch)
             
             var box = result.boundingBox
             // 坐标系转换
