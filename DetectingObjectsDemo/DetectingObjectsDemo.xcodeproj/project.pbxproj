@@ -47,6 +47,12 @@
 		5F113A682A07D5C200CD75F3 /* SpeechViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F113A672A07D5C200CD75F3 /* SpeechViewController.swift */; };
 		5F113A6A2A07D6C700CD75F3 /* 12168.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5F113A692A07D6C600CD75F3 /* 12168.wav */; };
 		5F113A6C2A07E94600CD75F3 /* VoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F113A6B2A07E94600CD75F3 /* VoiceViewController.swift */; };
+		5F113A742A0A461700CD75F3 /* MNISTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F113A732A0A461700CD75F3 /* MNISTViewController.swift */; };
+		5F113A7A2A0A4EA100CD75F3 /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F113A792A0A4EA100CD75F3 /* 7.png */; };
+		5F113A802A0A580C00CD75F3 /* MNISTClassifier.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 5F113A7F2A0A580C00CD75F3 /* MNISTClassifier.mlpackage */; };
+		5F113A842A0A5AD700CD75F3 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F113A832A0A5AD700CD75F3 /* 3.png */; };
+		5F113A882A0A5CCA00CD75F3 /* UpdatableDrawingClassifier.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 5F113A872A0A5CCA00CD75F3 /* UpdatableDrawingClassifier.mlpackage */; };
+		5F113A8A2A0A5F6600CD75F3 /* UpdateableModelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F113A892A0A5F6600CD75F3 /* UpdateableModelViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -92,6 +98,12 @@
 		5F113A672A07D5C200CD75F3 /* SpeechViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechViewController.swift; sourceTree = "<group>"; };
 		5F113A692A07D6C600CD75F3 /* 12168.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 12168.wav; sourceTree = "<group>"; };
 		5F113A6B2A07E94600CD75F3 /* VoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceViewController.swift; sourceTree = "<group>"; };
+		5F113A732A0A461700CD75F3 /* MNISTViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MNISTViewController.swift; sourceTree = "<group>"; };
+		5F113A792A0A4EA100CD75F3 /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		5F113A7F2A0A580C00CD75F3 /* MNISTClassifier.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = MNISTClassifier.mlpackage; sourceTree = "<group>"; };
+		5F113A832A0A5AD700CD75F3 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		5F113A872A0A5CCA00CD75F3 /* UpdatableDrawingClassifier.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = UpdatableDrawingClassifier.mlpackage; sourceTree = "<group>"; };
+		5F113A892A0A5F6600CD75F3 /* UpdateableModelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateableModelViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,7 +170,13 @@
 				5F113A652A06295B00CD75F3 /* EmbeddingViewController.swift */,
 				5F113A672A07D5C200CD75F3 /* SpeechViewController.swift */,
 				5F113A6B2A07E94600CD75F3 /* VoiceViewController.swift */,
+				5F113A732A0A461700CD75F3 /* MNISTViewController.swift */,
+				5F113A892A0A5F6600CD75F3 /* UpdateableModelViewController.swift */,
 				5F1139E529E7E38000CD75F3 /* TableViewController.swift */,
+				5F113A7F2A0A580C00CD75F3 /* MNISTClassifier.mlpackage */,
+				5F113A872A0A5CCA00CD75F3 /* UpdatableDrawingClassifier.mlpackage */,
+				5F113A832A0A5AD700CD75F3 /* 3.png */,
+				5F113A792A0A4EA100CD75F3 /* 7.png */,
 				5F113A4529F9014A00CD75F3 /* video1.mp4 */,
 				5F113A692A07D6C600CD75F3 /* 12168.wav */,
 				5F113A4B29F91F5600CD75F3 /* video2.mov */,
@@ -239,9 +257,11 @@
 				5F1139DE29E7DC7D00CD75F3 /* LaunchScreen.storyboard in Resources */,
 				5F113A6A2A07D6C700CD75F3 /* 12168.wav in Resources */,
 				5F113A4629F9014A00CD75F3 /* video1.mp4 in Resources */,
+				5F113A842A0A5AD700CD75F3 /* 3.png in Resources */,
 				5F1139DB29E7DC7D00CD75F3 /* Assets.xcassets in Resources */,
 				5F113A4C29F91F5600CD75F3 /* video2.mov in Resources */,
 				5F1139D929E7DC7C00CD75F3 /* Main.storyboard in Resources */,
+				5F113A7A2A0A4EA100CD75F3 /* 7.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,10 +280,12 @@
 				5F113A5029FA6F9700CD75F3 /* BasedSaliencyViewController.swift in Sources */,
 				5F113A0429F3F3DA00CD75F3 /* DetecingHorizonViewController.swift in Sources */,
 				5F113A1A29F6974200CD75F3 /* RecognizeTextViewController.swift in Sources */,
+				5F113A802A0A580C00CD75F3 /* MNISTClassifier.mlpackage in Sources */,
 				5F113A0029F3A3A700CD75F3 /* DetecingFaceLandmarksViewController.swift in Sources */,
 				5F113A4A29F90F3E00CD75F3 /* DetectTrajectoriesViewController.swift in Sources */,
 				5F113A0A29F406C000CD75F3 /* DetecingHumanViewController.swift in Sources */,
 				5F113A6C2A07E94600CD75F3 /* VoiceViewController.swift in Sources */,
+				5F113A8A2A0A5F6600CD75F3 /* UpdateableModelViewController.swift in Sources */,
 				5F1139FC29F397CD00CD75F3 /* DetecingDocumentViewController.swift in Sources */,
 				5F113A682A07D5C200CD75F3 /* SpeechViewController.swift in Sources */,
 				5F1139D629E7DC7C00CD75F3 /* DetectingRectangleController.swift in Sources */,
@@ -271,7 +293,9 @@
 				5F1139FE29F39AE800CD75F3 /* DetecingFaceViewController.swift in Sources */,
 				5F113A4029F8BCE100CD75F3 /* TrackRectanglViewController.swift in Sources */,
 				5F113A5429FA89AB00CD75F3 /* GeneratePersonSegmentationViewController.swift in Sources */,
+				5F113A882A0A5CCA00CD75F3 /* UpdatableDrawingClassifier.mlpackage in Sources */,
 				5F113A0829F4024100CD75F3 /* DetecingHumanHandPoseViewController.swift in Sources */,
+				5F113A742A0A461700CD75F3 /* MNISTViewController.swift in Sources */,
 				5F113A662A06295B00CD75F3 /* EmbeddingViewController.swift in Sources */,
 				5F1139FA29F290C900CD75F3 /* DetectingContoursViewController.swift in Sources */,
 				5F113A4829F9033B00CD75F3 /* TrackObjectViewController.swift in Sources */,

@@ -1,0 +1,11 @@
+{
+  "MLModelVersionStringKey" : "--",
+  "MLModelDescriptionKey" : "Drawing classifier created by Turi Create (version 5.5)",
+  "MLModelCreatorDefinedKey" : {
+    "com.apple.developer.machine-learning.models.version" : "1.0",
+    "com.apple.developer.machine-learning.models.name" : "MNISTClassifier.mlmodel",
+    "com.apple.developer.machine-learning.models.category" : "image"
+  },
+  "MLModelAuthorKey" : "Apple, Inc.",
+  "MLModelLicenseKey" : "https:\/\/docs-assets.developer.apple.com\/coreml\/models\/Image\/DrawingClassification\/MNISTClassifier\/LICENSE-MIT.txt For information about the dataset, please see http:\/\/yann.lecun.com\/exdb\/mnist\/."
+}

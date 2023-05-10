@@ -1,0 +1,11 @@
+{
+  "MLModelVersionStringKey" : "--",
+  "MLModelDescriptionKey" : "An updatable model which can be used to train a tiny 28 x 28 drawing classifier based on user examples. It uses a drawing embedding trained on the Quick, Draw! dataset (https:\/\/github.com\/googlecreativelab\/quickdraw-dataset)",
+  "MLModelCreatorDefinedKey" : {
+    "com.apple.developer.machine-learning.models.version" : "1.0.1",
+    "com.apple.developer.machine-learning.models.name" : "UpdatableDrawingClassifier.mlmodel",
+    "com.apple.developer.machine-learning.models.category" : "image"
+  },
+  "MLModelAuthorKey" : "Core ML Tools",
+  "MLModelLicenseKey" : "https:\/\/docs-assets.developer.apple.com\/coreml\/models\/Image\/DrawingClassification\/UpdatableDrawingClassifier\/LICENSE-MIT.txt For information about the dataset, please see https:\/\/github.com\/googlecreativelab\/quickdraw-dataset."
+}

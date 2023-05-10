@@ -1,0 +1,23 @@
+{
+  "Outputs" : {
+    "label" : {
+      "MLFeatureShortDescription" : "Predicted label. Defaults to 'unknown'"
+    },
+    "labelProbs" : {
+      "MLFeatureShortDescription" : "Probabilities \/ score for each possible label."
+    }
+  },
+  "Inputs" : {
+    "drawing" : {
+      "MLFeatureShortDescription" : "Input sketch image with black background and white strokes"
+    }
+  },
+  "TrainingInputs" : {
+    "drawing" : {
+      "MLFeatureShortDescription" : "Example sketch"
+    },
+    "label" : {
+      "MLFeatureShortDescription" : "Associated true label of example sketch"
+    }
+  }
+}
