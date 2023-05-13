@@ -11,7 +11,7 @@ import Vision
 class ClassifyImageViewController: UIViewController {
 
     // 要分析的图片资源
-    let image = UIImage(named: "image9")!
+    let image = UIImage(named: "m")!
     lazy var imageView = UIImageView(image: image)
     lazy var textView:UITextView = {
         let v = UITextView()
