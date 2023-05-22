@@ -58,6 +58,12 @@
 		5F113A922A0F704900CD75F3 /* SqueezeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 5F113A912A0F704900CD75F3 /* SqueezeNet.mlmodel */; };
 		5F113A942A0F70AC00CD75F3 /* m.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F113A932A0F70AC00CD75F3 /* m.png */; };
 		5F113A962A0F711F00CD75F3 /* ClassifyModelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F113A952A0F711F00CD75F3 /* ClassifyModelViewController.swift */; };
+		5FCAE40D2A1BAE290012CC34 /* t.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FCAE40C2A1BAE280012CC34 /* t.png */; };
+		5FCAE40F2A1BAFE70012CC34 /* YOLOv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 5FCAE40E2A1BAFE70012CC34 /* YOLOv3.mlmodel */; };
+		5FCAE4112A1BB01E0012CC34 /* YOLOv3Tiny.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 5FCAE4102A1BB01E0012CC34 /* YOLOv3Tiny.mlmodel */; };
+		5FCAE4152A1BB79A0012CC34 /* f.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FCAE4142A1BB79A0012CC34 /* f.png */; };
+		5FCAE4172A1BB7E20012CC34 /* m1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FCAE4162A1BB7E20012CC34 /* m1.png */; };
+		5FFE9CDE2A1BAB7200AA3D8D /* RecognizeModelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFE9CDD2A1BAB7200AA3D8D /* RecognizeModelViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -114,6 +120,12 @@
 		5F113A912A0F704900CD75F3 /* SqueezeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SqueezeNet.mlmodel; sourceTree = "<group>"; };
 		5F113A932A0F70AC00CD75F3 /* m.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = m.png; sourceTree = "<group>"; };
 		5F113A952A0F711F00CD75F3 /* ClassifyModelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassifyModelViewController.swift; sourceTree = "<group>"; };
+		5FCAE40C2A1BAE280012CC34 /* t.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = t.png; sourceTree = "<group>"; };
+		5FCAE40E2A1BAFE70012CC34 /* YOLOv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = YOLOv3.mlmodel; sourceTree = "<group>"; };
+		5FCAE4102A1BB01E0012CC34 /* YOLOv3Tiny.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = YOLOv3Tiny.mlmodel; sourceTree = "<group>"; };
+		5FCAE4142A1BB79A0012CC34 /* f.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = f.png; sourceTree = "<group>"; };
+		5FCAE4162A1BB7E20012CC34 /* m1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = m1.png; path = ../../../../Desktop/m1.png; sourceTree = "<group>"; };
+		5FFE9CDD2A1BAB7200AA3D8D /* RecognizeModelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecognizeModelViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,11 +195,17 @@
 				5F113A732A0A461700CD75F3 /* MNISTViewController.swift */,
 				5F113A892A0A5F6600CD75F3 /* UpdateableModelViewController.swift */,
 				5F113A952A0F711F00CD75F3 /* ClassifyModelViewController.swift */,
+				5FFE9CDD2A1BAB7200AA3D8D /* RecognizeModelViewController.swift */,
 				5F1139E529E7E38000CD75F3 /* TableViewController.swift */,
+				5FCAE4102A1BB01E0012CC34 /* YOLOv3Tiny.mlmodel */,
+				5FCAE4142A1BB79A0012CC34 /* f.png */,
+				5FCAE4162A1BB7E20012CC34 /* m1.png */,
+				5FCAE40E2A1BAFE70012CC34 /* YOLOv3.mlmodel */,
 				5F113A7F2A0A580C00CD75F3 /* MNISTClassifier.mlpackage */,
 				5F113A872A0A5CCA00CD75F3 /* UpdatableDrawingClassifier.mlpackage */,
 				5F113A8B2A0CCA1600CD75F3 /* MobileNetV2.mlmodel */,
 				5F113A932A0F70AC00CD75F3 /* m.png */,
+				5FCAE40C2A1BAE280012CC34 /* t.png */,
 				5F113A8F2A0F700B00CD75F3 /* Resnet50.mlmodel */,
 				5F113A912A0F704900CD75F3 /* SqueezeNet.mlmodel */,
 				5F113A832A0A5AD700CD75F3 /* 3.png */,
@@ -269,6 +287,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FCAE4152A1BB79A0012CC34 /* f.png in Resources */,
+				5FCAE40D2A1BAE290012CC34 /* t.png in Resources */,
 				5F113A942A0F70AC00CD75F3 /* m.png in Resources */,
 				5F1139DE29E7DC7D00CD75F3 /* LaunchScreen.storyboard in Resources */,
 				5F113A6A2A07D6C700CD75F3 /* 12168.wav in Resources */,
@@ -276,6 +296,7 @@
 				5F113A842A0A5AD700CD75F3 /* 3.png in Resources */,
 				5F1139DB29E7DC7D00CD75F3 /* Assets.xcassets in Resources */,
 				5F113A4C29F91F5600CD75F3 /* video2.mov in Resources */,
+				5FCAE4172A1BB7E20012CC34 /* m1.png in Resources */,
 				5F1139D929E7DC7C00CD75F3 /* Main.storyboard in Resources */,
 				5F113A7A2A0A4EA100CD75F3 /* 7.png in Resources */,
 			);
@@ -307,6 +328,7 @@
 				5F113A682A07D5C200CD75F3 /* SpeechViewController.swift in Sources */,
 				5F1139D629E7DC7C00CD75F3 /* DetectingRectangleController.swift in Sources */,
 				5F113A962A0F711F00CD75F3 /* ClassifyModelViewController.swift in Sources */,
+				5FFE9CDE2A1BAB7200AA3D8D /* RecognizeModelViewController.swift in Sources */,
 				5F1139F629F000CA00CD75F3 /* DetectingTextViewController.swift in Sources */,
 				5F1139FE29F39AE800CD75F3 /* DetecingFaceViewController.swift in Sources */,
 				5F113A4029F8BCE100CD75F3 /* TrackRectanglViewController.swift in Sources */,
@@ -319,7 +341,9 @@
 				5F113A922A0F704900CD75F3 /* SqueezeNet.mlmodel in Sources */,
 				5F113A4829F9033B00CD75F3 /* TrackObjectViewController.swift in Sources */,
 				5F1139D229E7DC7C00CD75F3 /* AppDelegate.swift in Sources */,
+				5FCAE40F2A1BAFE70012CC34 /* YOLOv3.mlmodel in Sources */,
 				5F1139F829F27AF800CD75F3 /* DetectingBarcodesViewController.swift in Sources */,
+				5FCAE4112A1BB01E0012CC34 /* YOLOv3Tiny.mlmodel in Sources */,
 				5F113A592A0387E500CD75F3 /* TokenizationViewController.swift in Sources */,
 				5F113A0629F3FA9D00CD75F3 /* DetecingHumanBodyPoseViewController.swift in Sources */,
 				5F113A5229FA71CC00CD75F3 /* ObjectnessBasedSaliencyViewController.swift in Sources */,
