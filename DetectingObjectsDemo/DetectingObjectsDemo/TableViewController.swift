@@ -42,8 +42,11 @@ class TableViewController: UITableViewController {
                      "MNIST示例",
                      "可更新的模型示例",
                      "模型识别图片",
-                     "模型识别物体"]
-    let controllers = [DetectingRectangleController(), DetectingTextViewController(), DetectingBarcodesViewController(), DetectingContoursViewController(), DetecingDocumentViewController(), DetecingFaceViewController(), DetecingFaceLandmarksViewController(), DetecingFaceCaptureQualityViewController(), DetecingHorizonViewController(), DetecingHumanBodyPoseViewController(), DetecingHumanHandPoseViewController(), DetecingHumanViewController(), RecognizeTextViewController(), RecognizeAnimalsViewController(), ClassifyImageViewController(), TrackRectanglViewController(), TrackObjectViewController(), DetectTrajectoriesViewController(), ImageFeatureViewController(), BasedSaliencyViewController(), ObjectnessBasedSaliencyViewController(), GeneratePersonSegmentationViewController(), TokenizationViewController(), SentenceViewController(), ParagraphViewController(), LanguageViewController(), IdentifyingViewController(), EmbeddingViewController(), SpeechViewController(), VoiceViewController(), MNISTViewController(), UpdateableModelViewController(), ClassifyModelViewController(), RecognizeModelViewController()]
+                     "模型识别物体",
+                     "模型识别姿势",
+                     "模型图片分割",
+                     "模型景物深度分析"]
+    let controllers = [DetectingRectangleController(), DetectingTextViewController(), DetectingBarcodesViewController(), DetectingContoursViewController(), DetecingDocumentViewController(), DetecingFaceViewController(), DetecingFaceLandmarksViewController(), DetecingFaceCaptureQualityViewController(), DetecingHorizonViewController(), DetecingHumanBodyPoseViewController(), DetecingHumanHandPoseViewController(), DetecingHumanViewController(), RecognizeTextViewController(), RecognizeAnimalsViewController(), ClassifyImageViewController(), TrackRectanglViewController(), TrackObjectViewController(), DetectTrajectoriesViewController(), ImageFeatureViewController(), BasedSaliencyViewController(), ObjectnessBasedSaliencyViewController(), GeneratePersonSegmentationViewController(), TokenizationViewController(), SentenceViewController(), ParagraphViewController(), LanguageViewController(), IdentifyingViewController(), EmbeddingViewController(), SpeechViewController(), VoiceViewController(), MNISTViewController(), UpdateableModelViewController(), ClassifyModelViewController(), RecognizeModelViewController(), PoseModelViewController(), SegModelViewController(), DeppModelViewController()]
 
     override func viewDidLoad() {
         super.viewDidLoad()

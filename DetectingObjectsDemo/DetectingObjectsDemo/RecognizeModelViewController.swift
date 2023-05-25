@@ -14,7 +14,7 @@ class RecognizeModelViewController: UIViewController {
     let url = URL(fileURLWithPath: Bundle.main.path(forResource: "YOLOv3Tiny", ofType: "mlmodelc")!)
     lazy var visionModel = try! VNCoreMLModel(for: MLModel(contentsOf: url))
     
-    let image = UIImage(named: "m1")!
+    let image = UIImage(named: "f")!
     
     // 图像分析请求处理类
     lazy var imageRequestHandler = VNImageRequestHandler(cgImage: image.cgImage!,

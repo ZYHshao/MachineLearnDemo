@@ -62,7 +62,16 @@
 		5FCAE40F2A1BAFE70012CC34 /* YOLOv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 5FCAE40E2A1BAFE70012CC34 /* YOLOv3.mlmodel */; };
 		5FCAE4112A1BB01E0012CC34 /* YOLOv3Tiny.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 5FCAE4102A1BB01E0012CC34 /* YOLOv3Tiny.mlmodel */; };
 		5FCAE4152A1BB79A0012CC34 /* f.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FCAE4142A1BB79A0012CC34 /* f.png */; };
-		5FCAE4172A1BB7E20012CC34 /* m1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FCAE4162A1BB7E20012CC34 /* m1.png */; };
+		5FCAE41B2A1E05880012CC34 /* PoseNetMobileNet100S16FP16.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 5FCAE41A2A1E05880012CC34 /* PoseNetMobileNet100S16FP16.mlmodel */; };
+		5FCAE41F2A1E06260012CC34 /* PoseModelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCAE41E2A1E06260012CC34 /* PoseModelViewController.swift */; };
+		5FCAE4212A1E072E0012CC34 /* man.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FCAE4202A1E072E0012CC34 /* man.png */; };
+		5FCAE4232A1E52A40012CC34 /* DeepLabV3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 5FCAE4222A1E52A40012CC34 /* DeepLabV3.mlmodel */; };
+		5FCAE4252A1E55AF0012CC34 /* seg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5FCAE4242A1E55AF0012CC34 /* seg.jpeg */; };
+		5FCAE4272A1E55C50012CC34 /* SegModelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCAE4262A1E55C50012CC34 /* SegModelViewController.swift */; };
+		5FCAE4342A1FA0F30012CC34 /* FCRN.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 5FCAE4332A1FA0F30012CC34 /* FCRN.mlmodel */; };
+		5FCAE4362A1FA1D20012CC34 /* DeppModelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCAE4352A1FA1D20012CC34 /* DeppModelViewController.swift */; };
+		5FCAE4382A1FA2A30012CC34 /* deep.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FCAE4372A1FA2A30012CC34 /* deep.png */; };
+		5FCAE43A2A1FA31C0012CC34 /* deep2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FCAE4392A1FA31C0012CC34 /* deep2.png */; };
 		5FFE9CDE2A1BAB7200AA3D8D /* RecognizeModelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFE9CDD2A1BAB7200AA3D8D /* RecognizeModelViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -124,7 +133,16 @@
 		5FCAE40E2A1BAFE70012CC34 /* YOLOv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = YOLOv3.mlmodel; sourceTree = "<group>"; };
 		5FCAE4102A1BB01E0012CC34 /* YOLOv3Tiny.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = YOLOv3Tiny.mlmodel; sourceTree = "<group>"; };
 		5FCAE4142A1BB79A0012CC34 /* f.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = f.png; sourceTree = "<group>"; };
-		5FCAE4162A1BB7E20012CC34 /* m1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = m1.png; path = ../../../../Desktop/m1.png; sourceTree = "<group>"; };
+		5FCAE41A2A1E05880012CC34 /* PoseNetMobileNet100S16FP16.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = PoseNetMobileNet100S16FP16.mlmodel; sourceTree = "<group>"; };
+		5FCAE41E2A1E06260012CC34 /* PoseModelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoseModelViewController.swift; sourceTree = "<group>"; };
+		5FCAE4202A1E072E0012CC34 /* man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = man.png; sourceTree = "<group>"; };
+		5FCAE4222A1E52A40012CC34 /* DeepLabV3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = DeepLabV3.mlmodel; sourceTree = "<group>"; };
+		5FCAE4242A1E55AF0012CC34 /* seg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = seg.jpeg; sourceTree = "<group>"; };
+		5FCAE4262A1E55C50012CC34 /* SegModelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegModelViewController.swift; sourceTree = "<group>"; };
+		5FCAE4332A1FA0F30012CC34 /* FCRN.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = FCRN.mlmodel; sourceTree = "<group>"; };
+		5FCAE4352A1FA1D20012CC34 /* DeppModelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeppModelViewController.swift; sourceTree = "<group>"; };
+		5FCAE4372A1FA2A30012CC34 /* deep.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deep.png; sourceTree = "<group>"; };
+		5FCAE4392A1FA31C0012CC34 /* deep2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deep2.png; sourceTree = "<group>"; };
 		5FFE9CDD2A1BAB7200AA3D8D /* RecognizeModelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecognizeModelViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -196,11 +214,20 @@
 				5F113A892A0A5F6600CD75F3 /* UpdateableModelViewController.swift */,
 				5F113A952A0F711F00CD75F3 /* ClassifyModelViewController.swift */,
 				5FFE9CDD2A1BAB7200AA3D8D /* RecognizeModelViewController.swift */,
+				5FCAE41E2A1E06260012CC34 /* PoseModelViewController.swift */,
+				5FCAE4262A1E55C50012CC34 /* SegModelViewController.swift */,
+				5FCAE4352A1FA1D20012CC34 /* DeppModelViewController.swift */,
 				5F1139E529E7E38000CD75F3 /* TableViewController.swift */,
+				5FCAE4242A1E55AF0012CC34 /* seg.jpeg */,
+				5FCAE4332A1FA0F30012CC34 /* FCRN.mlmodel */,
+				5FCAE41A2A1E05880012CC34 /* PoseNetMobileNet100S16FP16.mlmodel */,
 				5FCAE4102A1BB01E0012CC34 /* YOLOv3Tiny.mlmodel */,
+				5FCAE4202A1E072E0012CC34 /* man.png */,
+				5FCAE4222A1E52A40012CC34 /* DeepLabV3.mlmodel */,
 				5FCAE4142A1BB79A0012CC34 /* f.png */,
-				5FCAE4162A1BB7E20012CC34 /* m1.png */,
 				5FCAE40E2A1BAFE70012CC34 /* YOLOv3.mlmodel */,
+				5FCAE4392A1FA31C0012CC34 /* deep2.png */,
+				5FCAE4372A1FA2A30012CC34 /* deep.png */,
 				5F113A7F2A0A580C00CD75F3 /* MNISTClassifier.mlpackage */,
 				5F113A872A0A5CCA00CD75F3 /* UpdatableDrawingClassifier.mlpackage */,
 				5F113A8B2A0CCA1600CD75F3 /* MobileNetV2.mlmodel */,
@@ -288,15 +315,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FCAE4152A1BB79A0012CC34 /* f.png in Resources */,
+				5FCAE4382A1FA2A30012CC34 /* deep.png in Resources */,
 				5FCAE40D2A1BAE290012CC34 /* t.png in Resources */,
 				5F113A942A0F70AC00CD75F3 /* m.png in Resources */,
 				5F1139DE29E7DC7D00CD75F3 /* LaunchScreen.storyboard in Resources */,
+				5FCAE4252A1E55AF0012CC34 /* seg.jpeg in Resources */,
 				5F113A6A2A07D6C700CD75F3 /* 12168.wav in Resources */,
+				5FCAE43A2A1FA31C0012CC34 /* deep2.png in Resources */,
 				5F113A4629F9014A00CD75F3 /* video1.mp4 in Resources */,
+				5FCAE4212A1E072E0012CC34 /* man.png in Resources */,
 				5F113A842A0A5AD700CD75F3 /* 3.png in Resources */,
 				5F1139DB29E7DC7D00CD75F3 /* Assets.xcassets in Resources */,
 				5F113A4C29F91F5600CD75F3 /* video2.mov in Resources */,
-				5FCAE4172A1BB7E20012CC34 /* m1.png in Resources */,
 				5F1139D929E7DC7C00CD75F3 /* Main.storyboard in Resources */,
 				5F113A7A2A0A4EA100CD75F3 /* 7.png in Resources */,
 			);
@@ -318,6 +348,7 @@
 				5F113A0429F3F3DA00CD75F3 /* DetecingHorizonViewController.swift in Sources */,
 				5F113A1A29F6974200CD75F3 /* RecognizeTextViewController.swift in Sources */,
 				5F113A802A0A580C00CD75F3 /* MNISTClassifier.mlpackage in Sources */,
+				5FCAE41F2A1E06260012CC34 /* PoseModelViewController.swift in Sources */,
 				5F113A0029F3A3A700CD75F3 /* DetecingFaceLandmarksViewController.swift in Sources */,
 				5F113A4A29F90F3E00CD75F3 /* DetectTrajectoriesViewController.swift in Sources */,
 				5F113A0A29F406C000CD75F3 /* DetecingHumanViewController.swift in Sources */,
@@ -325,9 +356,11 @@
 				5F113A6C2A07E94600CD75F3 /* VoiceViewController.swift in Sources */,
 				5F113A8A2A0A5F6600CD75F3 /* UpdateableModelViewController.swift in Sources */,
 				5F1139FC29F397CD00CD75F3 /* DetecingDocumentViewController.swift in Sources */,
+				5FCAE4342A1FA0F30012CC34 /* FCRN.mlmodel in Sources */,
 				5F113A682A07D5C200CD75F3 /* SpeechViewController.swift in Sources */,
 				5F1139D629E7DC7C00CD75F3 /* DetectingRectangleController.swift in Sources */,
 				5F113A962A0F711F00CD75F3 /* ClassifyModelViewController.swift in Sources */,
+				5FCAE41B2A1E05880012CC34 /* PoseNetMobileNet100S16FP16.mlmodel in Sources */,
 				5FFE9CDE2A1BAB7200AA3D8D /* RecognizeModelViewController.swift in Sources */,
 				5F1139F629F000CA00CD75F3 /* DetectingTextViewController.swift in Sources */,
 				5F1139FE29F39AE800CD75F3 /* DetecingFaceViewController.swift in Sources */,
@@ -339,13 +372,16 @@
 				5F113A662A06295B00CD75F3 /* EmbeddingViewController.swift in Sources */,
 				5F1139FA29F290C900CD75F3 /* DetectingContoursViewController.swift in Sources */,
 				5F113A922A0F704900CD75F3 /* SqueezeNet.mlmodel in Sources */,
+				5FCAE4362A1FA1D20012CC34 /* DeppModelViewController.swift in Sources */,
 				5F113A4829F9033B00CD75F3 /* TrackObjectViewController.swift in Sources */,
 				5F1139D229E7DC7C00CD75F3 /* AppDelegate.swift in Sources */,
 				5FCAE40F2A1BAFE70012CC34 /* YOLOv3.mlmodel in Sources */,
 				5F1139F829F27AF800CD75F3 /* DetectingBarcodesViewController.swift in Sources */,
 				5FCAE4112A1BB01E0012CC34 /* YOLOv3Tiny.mlmodel in Sources */,
 				5F113A592A0387E500CD75F3 /* TokenizationViewController.swift in Sources */,
+				5FCAE4272A1E55C50012CC34 /* SegModelViewController.swift in Sources */,
 				5F113A0629F3FA9D00CD75F3 /* DetecingHumanBodyPoseViewController.swift in Sources */,
+				5FCAE4232A1E52A40012CC34 /* DeepLabV3.mlmodel in Sources */,
 				5F113A5229FA71CC00CD75F3 /* ObjectnessBasedSaliencyViewController.swift in Sources */,
 				5F1139D429E7DC7C00CD75F3 /* SceneDelegate.swift in Sources */,
 				5F113A902A0F700B00CD75F3 /* Resnet50.mlmodel in Sources */,
