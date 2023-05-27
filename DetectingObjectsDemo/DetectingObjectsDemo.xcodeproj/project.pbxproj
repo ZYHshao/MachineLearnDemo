@@ -72,6 +72,9 @@
 		5FCAE4362A1FA1D20012CC34 /* DeppModelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCAE4352A1FA1D20012CC34 /* DeppModelViewController.swift */; };
 		5FCAE4382A1FA2A30012CC34 /* deep.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FCAE4372A1FA2A30012CC34 /* deep.png */; };
 		5FCAE43A2A1FA31C0012CC34 /* deep2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FCAE4392A1FA31C0012CC34 /* deep2.png */; };
+		5FCAE43C2A21EFCC0012CC34 /* BERTSQUADFP16.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 5FCAE43B2A21EFCC0012CC34 /* BERTSQUADFP16.mlmodel */; };
+		5FCAE43E2A21F1FF0012CC34 /* TextModelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCAE43D2A21F1FF0012CC34 /* TextModelViewController.swift */; };
+		5FCAE4422A2253830012CC34 /* bert-base-uncased-vocab.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5FCAE4412A2253830012CC34 /* bert-base-uncased-vocab.txt */; };
 		5FFE9CDE2A1BAB7200AA3D8D /* RecognizeModelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFE9CDD2A1BAB7200AA3D8D /* RecognizeModelViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -143,6 +146,9 @@
 		5FCAE4352A1FA1D20012CC34 /* DeppModelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeppModelViewController.swift; sourceTree = "<group>"; };
 		5FCAE4372A1FA2A30012CC34 /* deep.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deep.png; sourceTree = "<group>"; };
 		5FCAE4392A1FA31C0012CC34 /* deep2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deep2.png; sourceTree = "<group>"; };
+		5FCAE43B2A21EFCC0012CC34 /* BERTSQUADFP16.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = BERTSQUADFP16.mlmodel; sourceTree = "<group>"; };
+		5FCAE43D2A21F1FF0012CC34 /* TextModelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextModelViewController.swift; sourceTree = "<group>"; };
+		5FCAE4412A2253830012CC34 /* bert-base-uncased-vocab.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "bert-base-uncased-vocab.txt"; sourceTree = "<group>"; };
 		5FFE9CDD2A1BAB7200AA3D8D /* RecognizeModelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecognizeModelViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -217,7 +223,10 @@
 				5FCAE41E2A1E06260012CC34 /* PoseModelViewController.swift */,
 				5FCAE4262A1E55C50012CC34 /* SegModelViewController.swift */,
 				5FCAE4352A1FA1D20012CC34 /* DeppModelViewController.swift */,
+				5FCAE43D2A21F1FF0012CC34 /* TextModelViewController.swift */,
+				5FCAE4412A2253830012CC34 /* bert-base-uncased-vocab.txt */,
 				5F1139E529E7E38000CD75F3 /* TableViewController.swift */,
+				5FCAE43B2A21EFCC0012CC34 /* BERTSQUADFP16.mlmodel */,
 				5FCAE4242A1E55AF0012CC34 /* seg.jpeg */,
 				5FCAE4332A1FA0F30012CC34 /* FCRN.mlmodel */,
 				5FCAE41A2A1E05880012CC34 /* PoseNetMobileNet100S16FP16.mlmodel */,
@@ -320,6 +329,7 @@
 				5F113A942A0F70AC00CD75F3 /* m.png in Resources */,
 				5F1139DE29E7DC7D00CD75F3 /* LaunchScreen.storyboard in Resources */,
 				5FCAE4252A1E55AF0012CC34 /* seg.jpeg in Resources */,
+				5FCAE4422A2253830012CC34 /* bert-base-uncased-vocab.txt in Resources */,
 				5F113A6A2A07D6C700CD75F3 /* 12168.wav in Resources */,
 				5FCAE43A2A1FA31C0012CC34 /* deep2.png in Resources */,
 				5F113A4629F9014A00CD75F3 /* video1.mp4 in Resources */,
@@ -341,6 +351,7 @@
 			files = (
 				5F113A4E29FA477B00CD75F3 /* ImageFeatureViewController.swift in Sources */,
 				5F113A5D2A038D4700CD75F3 /* ParagraphViewController.swift in Sources */,
+				5FCAE43C2A21EFCC0012CC34 /* BERTSQUADFP16.mlmodel in Sources */,
 				5F113A1C29F6A2EE00CD75F3 /* RecognizeAnimalsViewController.swift in Sources */,
 				5F113A0229F3E7A500CD75F3 /* DetecingFaceCaptureQualityViewController.swift in Sources */,
 				5F113A5F2A03B84600CD75F3 /* LanguageViewController.swift in Sources */,
@@ -355,6 +366,7 @@
 				5F113A8C2A0CCA1600CD75F3 /* MobileNetV2.mlmodel in Sources */,
 				5F113A6C2A07E94600CD75F3 /* VoiceViewController.swift in Sources */,
 				5F113A8A2A0A5F6600CD75F3 /* UpdateableModelViewController.swift in Sources */,
+				5FCAE43E2A21F1FF0012CC34 /* TextModelViewController.swift in Sources */,
 				5F1139FC29F397CD00CD75F3 /* DetecingDocumentViewController.swift in Sources */,
 				5FCAE4342A1FA0F30012CC34 /* FCRN.mlmodel in Sources */,
 				5F113A682A07D5C200CD75F3 /* SpeechViewController.swift in Sources */,
