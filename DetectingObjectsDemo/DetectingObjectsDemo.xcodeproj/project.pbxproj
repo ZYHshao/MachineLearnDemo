@@ -75,6 +75,10 @@
 		5FCAE43C2A21EFCC0012CC34 /* BERTSQUADFP16.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 5FCAE43B2A21EFCC0012CC34 /* BERTSQUADFP16.mlmodel */; };
 		5FCAE43E2A21F1FF0012CC34 /* TextModelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCAE43D2A21F1FF0012CC34 /* TextModelViewController.swift */; };
 		5FCAE4422A2253830012CC34 /* bert-base-uncased-vocab.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5FCAE4412A2253830012CC34 /* bert-base-uncased-vocab.txt */; };
+		5FCAE4442A235E8C0012CC34 /* YHImageClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 5FCAE4432A235E8C0012CC34 /* YHImageClassifier.mlmodel */; };
+		5FCAE4462A235ECB0012CC34 /* CustomModelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCAE4452A235ECB0012CC34 /* CustomModelViewController.swift */; };
+		5FCAE4492A235EF80012CC34 /* zuozhu.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FCAE4472A235EF70012CC34 /* zuozhu.png */; };
+		5FCAE44C2A23689D0012CC34 /* mingren.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FCAE44B2A23689D0012CC34 /* mingren.png */; };
 		5FFE9CDE2A1BAB7200AA3D8D /* RecognizeModelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFE9CDD2A1BAB7200AA3D8D /* RecognizeModelViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -149,6 +153,10 @@
 		5FCAE43B2A21EFCC0012CC34 /* BERTSQUADFP16.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = BERTSQUADFP16.mlmodel; sourceTree = "<group>"; };
 		5FCAE43D2A21F1FF0012CC34 /* TextModelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextModelViewController.swift; sourceTree = "<group>"; };
 		5FCAE4412A2253830012CC34 /* bert-base-uncased-vocab.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "bert-base-uncased-vocab.txt"; sourceTree = "<group>"; };
+		5FCAE4432A235E8C0012CC34 /* YHImageClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = YHImageClassifier.mlmodel; sourceTree = "<group>"; };
+		5FCAE4452A235ECB0012CC34 /* CustomModelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModelViewController.swift; sourceTree = "<group>"; };
+		5FCAE4472A235EF70012CC34 /* zuozhu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zuozhu.png; sourceTree = "<group>"; };
+		5FCAE44B2A23689D0012CC34 /* mingren.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mingren.png; sourceTree = "<group>"; };
 		5FFE9CDD2A1BAB7200AA3D8D /* RecognizeModelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecognizeModelViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -223,9 +231,13 @@
 				5FCAE41E2A1E06260012CC34 /* PoseModelViewController.swift */,
 				5FCAE4262A1E55C50012CC34 /* SegModelViewController.swift */,
 				5FCAE4352A1FA1D20012CC34 /* DeppModelViewController.swift */,
+				5FCAE4452A235ECB0012CC34 /* CustomModelViewController.swift */,
 				5FCAE43D2A21F1FF0012CC34 /* TextModelViewController.swift */,
 				5FCAE4412A2253830012CC34 /* bert-base-uncased-vocab.txt */,
 				5F1139E529E7E38000CD75F3 /* TableViewController.swift */,
+				5FCAE44B2A23689D0012CC34 /* mingren.png */,
+				5FCAE4472A235EF70012CC34 /* zuozhu.png */,
+				5FCAE4432A235E8C0012CC34 /* YHImageClassifier.mlmodel */,
 				5FCAE43B2A21EFCC0012CC34 /* BERTSQUADFP16.mlmodel */,
 				5FCAE4242A1E55AF0012CC34 /* seg.jpeg */,
 				5FCAE4332A1FA0F30012CC34 /* FCRN.mlmodel */,
@@ -328,12 +340,14 @@
 				5FCAE40D2A1BAE290012CC34 /* t.png in Resources */,
 				5F113A942A0F70AC00CD75F3 /* m.png in Resources */,
 				5F1139DE29E7DC7D00CD75F3 /* LaunchScreen.storyboard in Resources */,
+				5FCAE4492A235EF80012CC34 /* zuozhu.png in Resources */,
 				5FCAE4252A1E55AF0012CC34 /* seg.jpeg in Resources */,
 				5FCAE4422A2253830012CC34 /* bert-base-uncased-vocab.txt in Resources */,
 				5F113A6A2A07D6C700CD75F3 /* 12168.wav in Resources */,
 				5FCAE43A2A1FA31C0012CC34 /* deep2.png in Resources */,
 				5F113A4629F9014A00CD75F3 /* video1.mp4 in Resources */,
 				5FCAE4212A1E072E0012CC34 /* man.png in Resources */,
+				5FCAE44C2A23689D0012CC34 /* mingren.png in Resources */,
 				5F113A842A0A5AD700CD75F3 /* 3.png in Resources */,
 				5F1139DB29E7DC7D00CD75F3 /* Assets.xcassets in Resources */,
 				5F113A4C29F91F5600CD75F3 /* video2.mov in Resources */,
@@ -386,6 +400,7 @@
 				5F113A922A0F704900CD75F3 /* SqueezeNet.mlmodel in Sources */,
 				5FCAE4362A1FA1D20012CC34 /* DeppModelViewController.swift in Sources */,
 				5F113A4829F9033B00CD75F3 /* TrackObjectViewController.swift in Sources */,
+				5FCAE4442A235E8C0012CC34 /* YHImageClassifier.mlmodel in Sources */,
 				5F1139D229E7DC7C00CD75F3 /* AppDelegate.swift in Sources */,
 				5FCAE40F2A1BAFE70012CC34 /* YOLOv3.mlmodel in Sources */,
 				5F1139F829F27AF800CD75F3 /* DetectingBarcodesViewController.swift in Sources */,
@@ -401,6 +416,7 @@
 				5F113A612A04D4F800CD75F3 /* IdentifyingViewController.swift in Sources */,
 				5F1139E629E7E38000CD75F3 /* TableViewController.swift in Sources */,
 				5F113A5B2A038C6600CD75F3 /* SentenceViewController.swift in Sources */,
+				5FCAE4462A235ECB0012CC34 /* CustomModelViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -550,6 +566,7 @@
 				DEVELOPMENT_TEAM = SGZUXTN292;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DetectingObjectsDemo/Info.plist;
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "请求使用语音识别能力";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -561,7 +578,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = huishao.DetectingObjectsDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = huishao.DetectingObjectsDemo2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -579,6 +596,7 @@
 				DEVELOPMENT_TEAM = SGZUXTN292;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DetectingObjectsDemo/Info.plist;
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "请求使用语音识别能力";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -590,7 +608,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = huishao.DetectingObjectsDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = huishao.DetectingObjectsDemo2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
