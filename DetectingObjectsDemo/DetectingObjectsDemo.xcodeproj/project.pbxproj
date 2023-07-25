@@ -58,6 +58,7 @@
 		5F113A922A0F704900CD75F3 /* SqueezeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 5F113A912A0F704900CD75F3 /* SqueezeNet.mlmodel */; };
 		5F113A942A0F70AC00CD75F3 /* m.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F113A932A0F70AC00CD75F3 /* m.png */; };
 		5F113A962A0F711F00CD75F3 /* ClassifyModelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F113A952A0F711F00CD75F3 /* ClassifyModelViewController.swift */; };
+		5F8176AA2A6FCCF100B534BD /* XMobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 5F8176A92A6FCCF100B534BD /* XMobileNetV2.mlmodel */; };
 		5FCAE40D2A1BAE290012CC34 /* t.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FCAE40C2A1BAE280012CC34 /* t.png */; };
 		5FCAE40F2A1BAFE70012CC34 /* YOLOv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 5FCAE40E2A1BAFE70012CC34 /* YOLOv3.mlmodel */; };
 		5FCAE4112A1BB01E0012CC34 /* YOLOv3Tiny.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 5FCAE4102A1BB01E0012CC34 /* YOLOv3Tiny.mlmodel */; };
@@ -136,6 +137,7 @@
 		5F113A912A0F704900CD75F3 /* SqueezeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SqueezeNet.mlmodel; sourceTree = "<group>"; };
 		5F113A932A0F70AC00CD75F3 /* m.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = m.png; sourceTree = "<group>"; };
 		5F113A952A0F711F00CD75F3 /* ClassifyModelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassifyModelViewController.swift; sourceTree = "<group>"; };
+		5F8176A92A6FCCF100B534BD /* XMobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = XMobileNetV2.mlmodel; sourceTree = "<group>"; };
 		5FCAE40C2A1BAE280012CC34 /* t.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = t.png; sourceTree = "<group>"; };
 		5FCAE40E2A1BAFE70012CC34 /* YOLOv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = YOLOv3.mlmodel; sourceTree = "<group>"; };
 		5FCAE4102A1BB01E0012CC34 /* YOLOv3Tiny.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = YOLOv3Tiny.mlmodel; sourceTree = "<group>"; };
@@ -235,6 +237,7 @@
 				5FCAE43D2A21F1FF0012CC34 /* TextModelViewController.swift */,
 				5FCAE4412A2253830012CC34 /* bert-base-uncased-vocab.txt */,
 				5F1139E529E7E38000CD75F3 /* TableViewController.swift */,
+				5F8176A92A6FCCF100B534BD /* XMobileNetV2.mlmodel */,
 				5FCAE44B2A23689D0012CC34 /* mingren.png */,
 				5FCAE4472A235EF70012CC34 /* zuozhu.png */,
 				5FCAE4432A235E8C0012CC34 /* YHImageClassifier.mlmodel */,
@@ -404,6 +407,7 @@
 				5F1139D229E7DC7C00CD75F3 /* AppDelegate.swift in Sources */,
 				5FCAE40F2A1BAFE70012CC34 /* YOLOv3.mlmodel in Sources */,
 				5F1139F829F27AF800CD75F3 /* DetectingBarcodesViewController.swift in Sources */,
+				5F8176AA2A6FCCF100B534BD /* XMobileNetV2.mlmodel in Sources */,
 				5FCAE4112A1BB01E0012CC34 /* YOLOv3Tiny.mlmodel in Sources */,
 				5F113A592A0387E500CD75F3 /* TokenizationViewController.swift in Sources */,
 				5FCAE4272A1E55C50012CC34 /* SegModelViewController.swift in Sources */,
